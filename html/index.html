@@ -4,6 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BurnAware — Organizational Health Intelligence</title>
+<meta name="description" content="BurnAware is an organizational health intelligence platform that provides an early-warning system for chronic overload, team pressure, and conditions that erode long-term performance.">
+<meta name="keywords" content="organizational health, burnout prevention, team performance, overload detection, HR tools, leadership development, employee wellness, psychological safety">
+<link rel="canonical" href="https://burnaware.io">
+
+<!-- Open Graph Meta Tags for Social Media -->
+<meta property="og:title" content="BurnAware — Organizational Health Intelligence">
+<meta property="og:description" content="BurnAware gives HR leaders and organizational teams an early-warning system for chronic overload, team pressure, and the conditions that quietly erode long-term performance.">
+<meta property="og:url" content="https://burnaware.io">
+<meta property="og:type" content="website">
+<!-- If you have an image, add: <meta property="og:image" content="URL_TO_YOUR_IMAGE"> -->
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="BurnAware — Organizational Health Intelligence">
+<meta name="twitter:description" content="BurnAware gives HR leaders and organizational teams an early-warning system for chronic overload, team pressure, and the conditions that quietly erode long-term performance.">
+<!-- If you have an image, add: <meta name="twitter:image" content="URL_TO_YOUR_IMAGE"> -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
@@ -33,7 +50,7 @@
   body { font-family: var(--sans); background: var(--surface); color: var(--ink); line-height: 1.6; }
 
   /* NAV */
-  nav {
+  header {
     position: sticky; top: 0; z-index: 100;
     background: rgba(250,249,247,0.92); backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border); padding: 0 2rem;
@@ -281,302 +298,308 @@
     section { padding: 56px 1.25rem; }
   }
 </style>
+<!-- script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "BurnAware",
+  "url": "https://burnaware.io",
+  "logo": "https://burnaware.io/logo.png",
+  "description": "BurnAware is an organizational health intelligence platform that provides an early-warning system for chronic overload, team pressure, and conditions that erode long-term performance.",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "url": "https://burnaware.io/#cta"
+  },
+  "sameAs": []
+}
+</script -->
 </head>
 <body>
 
-<!-- NAV -->
-<nav>
-  <div class="nav-inner">
-    <a href="#" class="logo"><span class="logo-dot"></span>BurnAware</a>
+<header>
+  <nav class="nav-inner">
+    <a href="#" class="logo" aria-label="BurnAware Home"><span class="logo-dot"></span>BurnAware</a>
     <ul>
       <li><a href="#how">How it works</a></li>
       <li><a href="#team">Team</a></li>
       <li><a href="#for">Who it's for</a></li>
     </ul>
-    <a href="#cta" class="nav-cta">Request a conversation</a>
-  </div>
-</nav>
+    <a href="#cta" class="nav-cta" aria-label="Request a conversation with the BurnAware team">Request a conversation</a>
+  </nav>
+</header>
 
-<!-- HERO -->
-<div style="overflow:hidden;">
-<div class="hero">
-  <div class="hero-content">
-    <div class="hero-label">Organizational health intelligence</div>
-    <h1>See what's building<br>beneath the <em>surface</em></h1>
-    <p class="hero-sub">BurnAware gives HR leaders and organizational teams an early-warning system for chronic overload, team pressure, and the conditions that quietly erode long-term performance.</p>
-    <div class="hero-actions">
-      <a href="#cta" class="btn-primary">Request a conversation</a>
-      <a href="#how" class="btn-secondary">See how it works <span class="btn-arrow">→</span></a>
+<main>
+  <div style="overflow:hidden;">
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-label">Organizational health intelligence</div>
+      <h1>See what's building<br>beneath the <em>surface</em></h1>
+      <p class="hero-sub">BurnAware gives HR leaders and organizational teams an early-warning system for chronic overload, team pressure, and the conditions that quietly erode long-term performance.</p>
+      <div class="hero-actions">
+        <a href="#cta" class="btn-primary" aria-label="Request a conversation with the BurnAware team">Request a conversation</a>
+        <a href="#how" class="btn-secondary" aria-label="See how BurnAware works">See how it works <span class="btn-arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-label="A dashboard showing a team's sustainability index and overload risk.">
+      <div class="dashboard-card">
+        <div class="dash-header">
+          <div>
+            <div class="dash-title">Product Development — Team report</div>
+            <div class="dash-subtitle">Diagnostic: May 2025 · 11 people</div>
+          </div>
+          <span class="dash-badge">⚠ Needs attention</span>
+        </div>
+        <div class="dash-body">
+          <div class="dash-metrics">
+            <div class="metric-item">
+              <div class="metric-label">Sustainability index</div>
+              <div class="metric-value warn">41<span style="font-size:.9rem;font-weight:400"> /100</span></div>
+              <div class="metric-sub">↓ 9 points since March</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-label">Overload risk</div>
+              <div class="metric-value warn">4 <span style="font-size:.9rem;font-weight:400">of 11</span></div>
+              <div class="metric-sub">Early-stage signals detected</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-label">Clarity score</div>
+              <div class="metric-value">52<span style="font-size:.9rem;font-weight:400"> /100</span></div>
+              <div class="metric-sub">Role clarity is the main driver</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-label">Psychological safety</div>
+              <div class="metric-value ok">67<span style="font-size:.9rem;font-weight:400"> /100</span></div>
+              <div class="metric-sub">Strong — above benchmark</div>
+            </div>
+          </div>
+          <div class="signal-list">
+            <div class="signal-item">
+              <span class="signal-dot red" aria-label="Red signal"></span>
+              <div>
+                <div class="signal-text">3 people show sustained high demand with insufficient recovery time</div>
+                <a href="#" class="signal-action" aria-label="View recommended actions for high demand signal">→ View recommended actions</a>
+              </div>
+            </div>
+            <div class="signal-item">
+              <span class="signal-dot amber" aria-label="Amber signal"></span>
+              <div>
+                <div class="signal-text">Role ambiguity is rising — linked to recent structure change</div>
+                <a href="#" class="signal-action" aria-label="View suggested leader conversation for role ambiguity signal">→ Suggested leader conversation</a>
+              </div>
+            </div>
+            <div class="signal-item">
+              <span class="signal-dot green" aria-label="Green signal"></span>
+              <div>
+                <div class="signal-text">Team cohesion remains stable despite the increased workload</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <div class="proof-bar">
+    <div class="proof-inner">
+      <span class="proof-label">Currently in use at</span>
+      <div class="proof-orgs">
+        <span class="proof-org">Technology scale-ups</span>
+        <span class="proof-org">Professional services firms</span>
+        <span class="proof-org">Organizations in transformation</span>
+        <span class="proof-org">High-growth teams</span>
+      </div>
     </div>
   </div>
-  <div class="hero-visual">
-    <div class="dashboard-card">
-      <div class="dash-header">
+
+  <section aria-labelledby="problem-title">
+    <div class="section-label">The problem</div>
+    <h2 id="problem-title">By the time it's visible,<br>the cost is already <em>real</em></h2>
+    <div class="problem-grid">
+      <div>
+        <p class="section-body">Most organizations don't have a burnout problem — they have a visibility problem. The early signals are there: people carrying more than they should, clarity eroding during change, pressure accumulating in pockets that don't show up in engagement surveys or performance reviews.</p>
+        <br>
+        <p class="section-body">Standard tools measure sentiment. BurnAware measures the structural and contextual conditions that create risk — before it surfaces in turnover, underperformance, or a conversation that comes too late.</p>
+      </div>
+      <ul class="problem-list">
+        <li>Annual engagement surveys miss what's happening between cycles. By the time results are in, the situation has already shifted.</li>
+        <li>Pulse surveys tell you how people feel today. They rarely tell you why, or what's likely to happen next.</li>
+        <li>High performers are often the least visible risk. They absorb pressure quietly — until they don't.</li>
+        <li>Leaders managing transformation face a specific challenge: change itself creates risk conditions that can look like engagement, not dysfunction.</li>
+      </ul>
+    </div>
+  </section>
+
+  <div style="background:var(--surface-alt); padding:1px 0;" id="how">
+  <section aria-labelledby="how-it-works-title">
+    <div class="section-label">How it works</div>
+    <h2 id="how-it-works-title">Simple to run.<br><em>Meaningful</em> by design.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num" aria-hidden="true">01</div>
+        <div class="step-title">Assess</div>
+        <div class="step-desc">A structured diagnostic — 12–15 minutes per person. Built on occupational psychology research, calibrated across cultural backgrounds and team contexts. Not a survey. Not a self-report questionnaire.</div>
+      </div>
+      <div class="step">
+        <div class="step-num" aria-hidden="true">02</div>
+        <div class="step-title">Detect</div>
+        <div class="step-desc">BurnAware maps results across six dimensions: internal state, work context, recovery capacity, clarity, cultural dynamics, and coping patterns. It surfaces the combinations that create real risk — not just averages.</div>
+      </div>
+      <div class="step">
+        <div class="step-num" aria-hidden="true">03</div>
+        <div class="step-title">Act</div>
+        <div class="step-desc">Each leader gets a prioritized action plan for their specific team — not a PDF of generic recommendations. Written for this situation, updated as new diagnostics come in, and designed to be usable, not just readable.</div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <section aria-labelledby="features-title">
+    <div class="section-label">What you get</div>
+    <h2 id="features-title">Built for leaders who need<br>to act, not just <em>understand</em></h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <div class="feature-title">Early overload detection</div>
+        <div class="feature-desc">Identify sustained high-demand patterns before they compound. See which individuals and sub-teams are carrying structural overload — weeks before it becomes a retention or performance issue.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+        <div class="feature-title">Organizational pressure mapping</div>
+        <div class="feature-desc">During change and transformation, pressure concentrates in predictable places — but most tools don't see it. BurnAware maps where pressure is building, why, and what the likely trajectory looks like.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <div class="feature-title">Clarity and sustainability scoring</div>
+        <div class="feature-desc">Lack of role clarity and unsustainable workload are two of the strongest predictors of disengagement. BurnAware tracks both — and connects them to specific conditions in the team's context.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <div class="feature-title">Individual-level insight</div>
+        <div class="feature-desc">Team averages hide the people who matter most. BurnAware surfaces individual patterns — calibrated to cultural context and coping style — so support reaches the right person, not the median.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg></div>
+        <div class="feature-title">Prioritized action plans</div>
+        <div class="feature-desc">Every diagnostic generates a ranked action map for that specific team — written for this situation, not adapted from a template. Concrete, leader-facing, and updated as new signals come in.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+        <div class="feature-title">Longitudinal tracking</div>
+        <div class="feature-desc">A single diagnostic is a snapshot. BurnAware tracks team health over time — showing whether interventions are working, whether risk is growing, and where to focus attention next quarter.</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="diff-wrap">
+  <section aria-labelledby="why-burnaware-title">
+    <div class="section-label">Why BurnAware</div>
+    <h2 id="why-burnaware-title" style="color:#f5f3ef">Not another <em style="color:#6fb899">engagement tool</em></h2>
+    <div class="diff-grid">
+      <div>
+        <div class="diff-item">
+          <div class="diff-tag">Structural, not sentiment</div>
+          <div class="diff-title">We measure conditions, not feelings</div>
+          <div class="diff-desc">Sentiment tools ask how people feel. BurnAware maps the structural and contextual factors that create risk — workload distribution, clarity, recovery capacity, cultural context. These predict outcomes that sentiment scores don't catch.</div>
+        </div>
+        <div class="diff-item">
+          <div class="diff-tag">Predictive, not retrospective</div>
+          <div class="diff-title">See what's coming, not what already happened</div>
+          <div class="diff-desc">Most HR tools are designed for reporting. BurnAware is designed for foresight — identifying risk trajectories weeks and months before they become visible in turnover, sick leave, or underperformance data.</div>
+        </div>
+        <div class="diff-item">
+          <div class="diff-tag">Culturally calibrated</div>
+          <div class="diff-title">Built for diverse, international teams</div>
+          <div class="diff-desc">Stress and overload don't look the same across cultural contexts. BurnAware's model accounts for how different backgrounds affect the way people perceive, express, and absorb pressure — so assessments are accurate across your whole organization.</div>
+        </div>
+      </div>
+      <div>
+        <div class="diff-vs">
+          <div class="diff-vs-title">How BurnAware compares</div>
+          <div class="diff-compare-row"><span class="diff-compare-name">Annual engagement survey</span><span class="diff-compare-them">Retrospective, annual</span><span class="diff-compare-us">Continuous</span></div>
+          <div class="diff-compare-row"><span class="diff-compare-name">Pulse survey tools</span><span class="diff-compare-them">Sentiment only</span><span class="diff-compare-us">Structural + contextual</span></div>
+          <div class="diff-compare-row"><span class="diff-compare-name">EAP / wellbeing platforms</span><span class="diff-compare-them">Individual, reactive</span><span class="diff-compare-us">Team-level, preventive</span></div>
+          <div class="diff-compare-row"><span class="diff-compare-name">Manager check-ins</span><span class="diff-compare-them">Visibility gap</span><span class="diff-compare-us">Data-backed clarity</span></div>
+          <div class="diff-compare-row"><span class="diff-compare-name">Burnout assessments</span><span class="diff-compare-them">Point-in-time score</span><span class="diff-compare-us">Longitudinal + predictive</span></div>
+          <div class="diff-compare-row"><span class="diff-compare-name">External consultants</span><span class="diff-compare-them">High cost, low frequency</span><span class="diff-compare-us">Scalable, ongoing</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <section id="for" aria-labelledby="who-its-for-title">
+    <div class="section-label">Who it's for</div>
+    <h2 id="who-its-for-title">Designed for the people<br>responsible for <em>healthy organizations</em></h2>
+    <div class="audience-grid">
+      <div class="audience-card">
+        <div class="audience-role">HR leadership</div>
+        <div class="audience-title">Move from reactive support to proactive organizational health</div>
+        <div class="audience-desc">BurnAware gives HR leaders a continuous view of risk across the organization — so interventions can happen earlier, and at the right level, rather than after the damage is done.</div>
+      </div>
+      <div class="audience-card">
+        <div class="audience-role">Organizational development</div>
+        <div class="audience-title">Data to back the work you're already doing</div>
+        <div class="audience-desc">For OD professionals working on culture, change, or performance — BurnAware provides the longitudinal data to show what's shifting, what's working, and where to focus next.</div>
+      </div>
+      <div class="audience-card">
+        <div class="audience-role">Leaders managing change</div>
+        <div class="audience-title">Understand what transformation is actually doing to your teams</div>
+        <div class="audience-desc">Restructuring, scaling, and strategic pivots all create specific risk patterns. BurnAware helps leaders see those patterns early — and act before they compound into attrition or failure to execute.</div>
+      </div>
+    </div>
+  </section>
+
+  <div style="background:var(--surface-alt); padding:1px 0;" id="team">
+  <section aria-labelledby="team-title">
+    <div class="section-label">The team</div>
+    <h2 id="team-title">The people behind <em>BurnAware</em></h2>
+    <div class="team-grid">
+
+      <div class="team-person">
+        <div class="team-avatar" aria-label="Katerina Bashtavenko's initials">KB</div>
         <div>
-          <div class="dash-title">Product Development — Team report</div>
-          <div class="dash-subtitle">Diagnostic: May 2025 · 11 people</div>
-        </div>
-        <span class="dash-badge">⚠ Needs attention</span>
-      </div>
-      <div class="dash-body">
-        <div class="dash-metrics">
-          <div class="metric-item">
-            <div class="metric-label">Sustainability index</div>
-            <div class="metric-value warn">41<span style="font-size:.9rem;font-weight:400"> /100</span></div>
-            <div class="metric-sub">↓ 9 points since March</div>
-          </div>
-          <div class="metric-item">
-            <div class="metric-label">Overload risk</div>
-            <div class="metric-value warn">4 <span style="font-size:.9rem;font-weight:400">of 11</span></div>
-            <div class="metric-sub">Early-stage signals detected</div>
-          </div>
-          <div class="metric-item">
-            <div class="metric-label">Clarity score</div>
-            <div class="metric-value">52<span style="font-size:.9rem;font-weight:400"> /100</span></div>
-            <div class="metric-sub">Role clarity is the main driver</div>
-          </div>
-          <div class="metric-item">
-            <div class="metric-label">Psychological safety</div>
-            <div class="metric-value ok">67<span style="font-size:.9rem;font-weight:400"> /100</span></div>
-            <div class="metric-sub">Strong — above benchmark</div>
-          </div>
-        </div>
-        <div class="signal-list">
-          <div class="signal-item">
-            <span class="signal-dot red"></span>
-            <div>
-              <div class="signal-text">3 people show sustained high demand with insufficient recovery time</div>
-              <div class="signal-action">→ View recommended actions</div>
-            </div>
-          </div>
-          <div class="signal-item">
-            <span class="signal-dot amber"></span>
-            <div>
-              <div class="signal-text">Role ambiguity is rising — linked to recent structure change</div>
-              <div class="signal-action">→ Suggested leader conversation</div>
-            </div>
-          </div>
-          <div class="signal-item">
-            <span class="signal-dot green"></span>
-            <div>
-              <div class="signal-text">Team cohesion remains stable despite the increased workload</div>
-            </div>
-          </div>
+          <div class="team-name">Katerina Bashtavenko</div>
+          <div class="team-role">Co-founder &amp; CEO</div>
+          <p class="team-bio">Over 15 years in organizational psychology and leadership development across international companies. Katerina has worked with teams in Europe, Asia, and the Americas — and built BurnAware around the insight that cultural context fundamentally shapes how people experience and express pressure at work.</p>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-</div>
 
-<!-- PROOF BAR -->
-<div class="proof-bar">
-  <div class="proof-inner">
-    <span class="proof-label">Currently in use at</span>
-    <div class="proof-orgs">
-      <span class="proof-org">Technology scale-ups</span>
-      <span class="proof-org">Professional services firms</span>
-      <span class="proof-org">Organizations in transformation</span>
-      <span class="proof-org">High-growth teams</span>
-    </div>
-  </div>
-</div>
-
-<!-- PROBLEM -->
-<section>
-  <div class="section-label">The problem</div>
-  <h2>By the time it's visible,<br>the cost is already <em>real</em></h2>
-  <div class="problem-grid">
-    <div>
-      <p class="section-body">Most organizations don't have a burnout problem — they have a visibility problem. The early signals are there: people carrying more than they should, clarity eroding during change, pressure accumulating in pockets that don't show up in engagement surveys or performance reviews.</p>
-      <br>
-      <p class="section-body">Standard tools measure sentiment. BurnAware measures the structural and contextual conditions that create risk — before it surfaces in turnover, underperformance, or a conversation that comes too late.</p>
-    </div>
-    <ul class="problem-list">
-      <li>Annual engagement surveys miss what's happening between cycles. By the time results are in, the situation has already shifted.</li>
-      <li>Pulse surveys tell you how people feel today. They rarely tell you why, or what's likely to happen next.</li>
-      <li>High performers are often the least visible risk. They absorb pressure quietly — until they don't.</li>
-      <li>Leaders managing transformation face a specific challenge: change itself creates risk conditions that can look like engagement, not dysfunction.</li>
-    </ul>
-  </div>
-</section>
-
-<!-- HOW IT WORKS -->
-<div style="background:var(--surface-alt); padding:1px 0;" id="how">
-<section>
-  <div class="section-label">How it works</div>
-  <h2>Simple to run.<br><em>Meaningful</em> by design.</h2>
-  <div class="steps">
-    <div class="step">
-      <div class="step-num">01</div>
-      <div class="step-title">Assess</div>
-      <div class="step-desc">A structured diagnostic — 12–15 minutes per person. Built on occupational psychology research, calibrated across cultural backgrounds and team contexts. Not a survey. Not a self-report questionnaire.</div>
-    </div>
-    <div class="step">
-      <div class="step-num">02</div>
-      <div class="step-title">Detect</div>
-      <div class="step-desc">BurnAware maps results across six dimensions: internal state, work context, recovery capacity, clarity, cultural dynamics, and coping patterns. It surfaces the combinations that create real risk — not just averages.</div>
-    </div>
-    <div class="step">
-      <div class="step-num">03</div>
-      <div class="step-title">Act</div>
-      <div class="step-desc">Each leader gets a prioritized action plan for their specific team — not a PDF of generic recommendations. Written for this situation, updated as new diagnostics come in, and designed to be usable, not just readable.</div>
-    </div>
-  </div>
-</section>
-</div>
-
-<!-- FEATURES -->
-<section>
-  <div class="section-label">What you get</div>
-  <h2>Built for leaders who need<br>to act, not just <em>understand</em></h2>
-  <div class="features-grid">
-    <div class="feature-card">
-      <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
-      <div class="feature-title">Early overload detection</div>
-      <div class="feature-desc">Identify sustained high-demand patterns before they compound. See which individuals and sub-teams are carrying structural overload — weeks before it becomes a retention or performance issue.</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-      <div class="feature-title">Organizational pressure mapping</div>
-      <div class="feature-desc">During change and transformation, pressure concentrates in predictable places — but most tools don't see it. BurnAware maps where pressure is building, why, and what the likely trajectory looks like.</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
-      <div class="feature-title">Clarity and sustainability scoring</div>
-      <div class="feature-desc">Lack of role clarity and unsustainable workload are two of the strongest predictors of disengagement. BurnAware tracks both — and connects them to specific conditions in the team's context.</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-      <div class="feature-title">Individual-level insight</div>
-      <div class="feature-desc">Team averages hide the people who matter most. BurnAware surfaces individual patterns — calibrated to cultural context and coping style — so support reaches the right person, not the median.</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon"><svg viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg></div>
-      <div class="feature-title">Prioritized action plans</div>
-      <div class="feature-desc">Every diagnostic generates a ranked action map for that specific team — written for this situation, not adapted from a template. Concrete, leader-facing, and updated as new signals come in.</div>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
-      <div class="feature-title">Longitudinal tracking</div>
-      <div class="feature-desc">A single diagnostic is a snapshot. BurnAware tracks team health over time — showing whether interventions are working, whether risk is growing, and where to focus attention next quarter.</div>
-    </div>
-  </div>
-</section>
-
-<!-- DIFFERENTIATORS -->
-<div class="diff-wrap">
-<section>
-  <div class="section-label">Why BurnAware</div>
-  <h2 style="color:#f5f3ef">Not another <em style="color:#6fb899">engagement tool</em></h2>
-  <div class="diff-grid">
-    <div>
-      <div class="diff-item">
-        <div class="diff-tag">Structural, not sentiment</div>
-        <div class="diff-title">We measure conditions, not feelings</div>
-        <div class="diff-desc">Sentiment tools ask how people feel. BurnAware maps the structural and contextual factors that create risk — workload distribution, clarity, recovery capacity, cultural context. These predict outcomes that sentiment scores don't catch.</div>
+      <div class="team-person">
+        <div class="team-avatar" aria-label="Irina Koksharova's initials">IK</div>
+        <div>
+          <div class="team-name">Irina Koksharova</div>
+          <div class="team-role">Co-founder &amp; Research Director</div>
+          <p class="team-bio">Researcher and practitioner in clinical and organizational psychology, with a focus on resilience science, burnout prevention, and how cultural identity shapes responses to stress. Irina leads the research methodology and model development behind BurnAware.</p>
+        </div>
       </div>
-      <div class="diff-item">
-        <div class="diff-tag">Predictive, not retrospective</div>
-        <div class="diff-title">See what's coming, not what already happened</div>
-        <div class="diff-desc">Most HR tools are designed for reporting. BurnAware is designed for foresight — identifying risk trajectories weeks and months before they become visible in turnover, sick leave, or underperformance data.</div>
-      </div>
-      <div class="diff-item">
-        <div class="diff-tag">Culturally calibrated</div>
-        <div class="diff-title">Built for diverse, international teams</div>
-        <div class="diff-desc">Stress and overload don't look the same across cultural contexts. BurnAware's model accounts for how different backgrounds affect the way people perceive, express, and absorb pressure — so assessments are accurate across your whole organization.</div>
-      </div>
+
     </div>
-    <div>
-      <div class="diff-vs">
-        <div class="diff-vs-title">How BurnAware compares</div>
-        <div class="diff-compare-row"><span class="diff-compare-name">Annual engagement survey</span><span class="diff-compare-them">Retrospective, annual</span><span class="diff-compare-us">Continuous</span></div>
-        <div class="diff-compare-row"><span class="diff-compare-name">Pulse survey tools</span><span class="diff-compare-them">Sentiment only</span><span class="diff-compare-us">Structural + contextual</span></div>
-        <div class="diff-compare-row"><span class="diff-compare-name">EAP / wellbeing platforms</span><span class="diff-compare-them">Individual, reactive</span><span class="diff-compare-us">Team-level, preventive</span></div>
-        <div class="diff-compare-row"><span class="diff-compare-name">Manager check-ins</span><span class="diff-compare-them">Visibility gap</span><span class="diff-compare-us">Data-backed clarity</span></div>
-        <div class="diff-compare-row"><span class="diff-compare-name">Burnout assessments</span><span class="diff-compare-them">Point-in-time score</span><span class="diff-compare-us">Longitudinal + predictive</span></div>
-        <div class="diff-compare-row"><span class="diff-compare-name">External consultants</span><span class="diff-compare-them">High cost, low frequency</span><span class="diff-compare-us">Scalable, ongoing</span></div>
-      </div>
-    </div>
+  </section>
   </div>
-</section>
-</div>
 
-<!-- WHO IT'S FOR -->
-<section id="for">
-  <div class="section-label">Who it's for</div>
-  <h2>Designed for the people<br>responsible for <em>healthy organizations</em></h2>
-  <div class="audience-grid">
-    <div class="audience-card">
-      <div class="audience-role">HR leadership</div>
-      <div class="audience-title">Move from reactive support to proactive organizational health</div>
-      <div class="audience-desc">BurnAware gives HR leaders a continuous view of risk across the organization — so interventions can happen earlier, and at the right level, rather than after the damage is done.</div>
-    </div>
-    <div class="audience-card">
-      <div class="audience-role">Organizational development</div>
-      <div class="audience-title">Data to back the work you're already doing</div>
-      <div class="audience-desc">For OD professionals working on culture, change, or performance — BurnAware provides the longitudinal data to show what's shifting, what's working, and where to focus next.</div>
-    </div>
-    <div class="audience-card">
-      <div class="audience-role">Leaders managing change</div>
-      <div class="audience-title">Understand what transformation is actually doing to your teams</div>
-      <div class="audience-desc">Restructuring, scaling, and strategic pivots all create specific risk patterns. BurnAware helps leaders see those patterns early — and act before they compound into attrition or failure to execute.</div>
-    </div>
+  <div class="quote-section">
+  <section>
+    <blockquote class="quote-text">"We thought we had a good picture of our teams. BurnAware showed us the gaps — and helped us act on them before they became something harder to fix."</blockquote>
+    <cite class="quote-source">Head of People Operations, technology company · Early access participant</cite>
+  </section>
   </div>
-</section>
 
-<!-- TEAM -->
-<div style="background:var(--surface-alt); padding:1px 0;" id="team">
-<section>
-  <div class="section-label">The team</div>
-  <h2>The people behind <em>BurnAware</em></h2>
-  <div class="team-grid">
-
-    <div class="team-person">
-      <div class="team-avatar">KB</div>
-      <div>
-        <div class="team-name">Katerina Bashtavenko</div>
-        <div class="team-role">Co-founder &amp; CEO</div>
-        <p class="team-bio">Over 15 years in organizational psychology and leadership development across international companies. Katerina has worked with teams in Europe, Asia, and the Americas — and built BurnAware around the insight that cultural context fundamentally shapes how people experience and express pressure at work.</p>
-      </div>
+  <div class="cta-wrap">
+  <section class="cta-section" id="cta" aria-labelledby="cta-title">
+    <div class="section-label" style="justify-content:center">Early access</div>
+    <h2 id="cta-title">Let's talk about what<br>you're trying to <em>solve</em></h2>
+    <p>We're working with a small number of HR leaders and OD teams. If you're navigating transformation, growth, or high-pressure environments — we'd like to learn about your situation.</p>
+    <div class="cta-form">
+      <input type="email" class="cta-input" placeholder="Your work email" aria-label="Your work email">
+      <a href="#" class="btn-primary" aria-label="Request a conversation with the BurnAware team">Request a conversation →</a>
     </div>
-
-    <div class="team-person">
-      <div class="team-avatar">IK</div>
-      <div>
-        <div class="team-name">Irina Koksharova</div>
-        <div class="team-role">Co-founder &amp; Research Director</div>
-        <p class="team-bio">Researcher and practitioner in clinical and organizational psychology, with a focus on resilience science, burnout prevention, and how cultural identity shapes responses to stress. Irina leads the research methodology and model development behind BurnAware.</p>
-      </div>
-    </div>
-
+    <p class="cta-note">No sales process. A 30-minute conversation about what you're working on — no commitment required.</p>
+  </section>
   </div>
-</section>
-</div>
+</main>
 
-<!-- QUOTE -->
-<div class="quote-section">
-<section>
-  <p class="quote-text">"We thought we had a good picture of our teams. BurnAware showed us the gaps — and helped us act on them before they became something harder to fix."</p>
-  <p class="quote-source">Head of People Operations, technology company · Early access participant</p>
-</section>
-</div>
-
-<!-- CTA -->
-<div class="cta-wrap">
-<section class="cta-section" id="cta">
-  <div class="section-label" style="justify-content:center">Early access</div>
-  <h2>Let's talk about what<br>you're trying to <em>solve</em></h2>
-  <p>We're working with a small number of HR leaders and OD teams. If you're navigating transformation, growth, or high-pressure environments — we'd like to learn about your situation.</p>
-  <div class="cta-form">
-    <input type="email" class="cta-input" placeholder="Your work email">
-    <a href="#" class="btn-primary">Request a conversation →</a>
-  </div>
-  <p class="cta-note">No sales process. A 30-minute conversation about what you're working on — no commitment required.</p>
-</section>
-</div>
-
-<!-- FOOTER -->
 <footer>
   <div class="footer-inner">
     <span class="footer-logo">BurnAware</span>
