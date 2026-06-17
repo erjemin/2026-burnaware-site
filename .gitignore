@@ -477,3 +477,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+# ИИ
+.github
+
